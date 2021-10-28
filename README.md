@@ -37,6 +37,9 @@ This is meant to be a playground for extending PyMOL's abilities. If you just ne
 
 There's software availabe that extends PyMOL's abilties and features. For example, [psico](https://pymolwiki.org/index.php/Psico) is a python module which extends PyMOL with many commands. I have made this separate repo as a playground for adding such extensions. In addition to that one, I have added  [rna-tools](https://github.com/mmagnus/rna-tools) as well.
 
+From the psico module, presently [load_aln](https://pymolwiki.org/index.php/Load_aln) and [xfit](https://pymolwiki.org/index.php/xfit) are ready-to-use. These additions add the ability to open an alignment file and view it in the sequence viewer. You can also do a fit according to it. Example with the steps and commands to run is [here](https://pymolwiki.org/index.php/Load_aln).  
+Note that the addition of this module means `save` and `fetch` become 'overloaded with extra abilities as described [here](https://pymolwiki.org/index.php/Psico#Initialization) unless you use the `psico.init` approach specified there when importing.  
+
 
 -----
 
