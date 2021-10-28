@@ -1,0 +1,20 @@
+channels:
+  - manics
+  - schrodinger
+  - speleo3
+  - conda-forge
+  - anaconda
+dependencies:
+  - websockify
+  - python
+  - pymol>=2.3
+  - pymol-psico
+  - biopython
+  - csb
+  - libglu
+  - glew
+  - pip
+  - pip:
+    - .
+    - rna-tools
+    
