@@ -17,17 +17,7 @@ RUN apt-get -y update \
    libglx-mesa0 \
    libglu1-mesa \
    libxrandr2 \
-   libxi6 \
-   build-essential \
-   python3-dev \
-   libglew-dev \
-   libpng-dev \
-   libfreetype6-dev \
-   libxml2-dev \
-   libmsgpack-dev \
-   python3-pyqt5.qtopengl \
-   libglm-dev \
-   libnetcdf-dev
+   libxi6 
 
 # Remove light-locker to prevent screen lock
 ARG TURBOVNC_VERSION=2.2.6
